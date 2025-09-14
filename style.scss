@@ -18,10 +18,12 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+	font-family: 'Roboto', sans-serif; /* Modern readable font */
+    color: #333333; /* Dark gray for readability */
+    background: $white; /* Original background */
+    line-height: 1.6;
 }
+
 
 .container {
   margin: 0 auto;
@@ -31,9 +33,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
-  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  color: #1a1a1a; /* Darker shade for headings */
+  font-weight: 700;
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -61,7 +63,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: #555555; 
 }
 
 p {
@@ -69,11 +71,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #0077cc;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #005fa3;
   }
 }
 
@@ -253,12 +255,11 @@ nav {
 
 .post {
   blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $gray;
-    font-size: 22px;
+    border-left: 3px solid #cccccc;
+    color: #555555;
     font-style: italic;
+    padding-left: 1em;
+    margin: 1.5em 0;
   }
 
   .comments {
@@ -276,6 +277,16 @@ nav {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
+}
+
+::selection {
+    color: #ffffff;
+    background: #0077cc;
+}
+
+::-moz-selection {
+    color: #ffffff;
+    background: #0077cc;
 }
 
 footer {
