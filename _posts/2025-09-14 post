@@ -1,0 +1,63 @@
+---
+layout: post
+title: "5 Python Tips Every Beginner Should Know"
+date: 2025-09-14
+---
+
+## Swagat hai Daily Insight me! 👋
+
+Aaj hum baat karenge **5 Python tips ke baare me** jo har beginner ko pata hone chahiye.  
+Ye tips tumhare coding skills ko fast improve karenge aur beginners ke liye common mistakes avoid karne me help karenge.
+
+---
+
+### 1. Use Meaningful Variable Names
+
+Variable names ka meaningful hona important hai. Example:
+
+```python
+# Bad
+x = 10
+y = 20
+
+# Good
+user_age = 10
+user_score = 20
+Ye code ko read aur maintain karna easy banata hai.
+
+2. List Comprehensions
+Python me list comprehension use karo for short and clean code:
+
+python
+Copy code
+numbers = [1, 2, 3, 4, 5]
+squared = [n**2 for n in numbers]
+print(squared)  # Output: [1, 4, 9, 16, 25]
+3. Use f-Strings for Formatting
+python
+Copy code
+name = "Himanshu"
+age = 20
+print(f"My name is {name} and I am {age} years old.")
+f-Strings easy aur readable hain
+
+4. Handle Exceptions
+python
+Copy code
+try:
+    num = int(input("Enter a number: "))
+except ValueError:
+    print("That's not a valid number!")
+Exceptions handle karna important hai, specially input ke liye
+
+5. Leverage Python Built-in Functions
+python
+Copy code
+nums = [10, 20, 30]
+print(sum(nums))   # Output: 60
+print(max(nums))   # Output: 30
+Python ka built-in library powerful aur time-saving hai
+
+Conclusion
+Ye 5 tips simple hain lekin beginner ke liye bohot helpful hain.
+Agar tum regularly practice karoge aur ye best practices follow karoge, to tumhari Python skills fast improve hongi.
